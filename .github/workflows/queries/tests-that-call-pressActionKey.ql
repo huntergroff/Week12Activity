@@ -32,7 +32,7 @@ predicate calls(Function caller, Function callee) {
 * Holds if a function is named 'pressActionKey'
 */
 predicate isNamedPressActionKey(Function function) {
-  function.getName() = 'pressActionKey'
+  function.getName() = "pressActionKey"
 }
 
 from Function test, Function callee
