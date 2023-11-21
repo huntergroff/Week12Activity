@@ -6,6 +6,9 @@
  */
 import javascript
 
+/**
+ * Holds if a function is longer than ten lines.
+ */
 predicate isLongerThanTenLines(Function function) {
   function.getNumLines() > 10
 }
